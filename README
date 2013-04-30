@@ -1,0 +1,12 @@
+Install:
+  git clone https://creativeKoder@github.com/creativeKoder/dotvim.git ~/.vim
+
+Link:
+  ln -s ~/.vim/vimrc ~/.vimrc
+  ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Once the repo has been downloaded
+  cd ~/.vim
+  git submodule init
+  git submodule update
+
